@@ -1,1 +1,18 @@
-$grey: #efefef;
+$acac-black: #212121;
+$acac-red: #cb5b3d;
+$acac-blue: #78d0f0;
+$acac-dark-blue: #435eab;
+
+$medium-screen: 30rem;
+
+$susy: (
+	columns: 12,
+	gutters: 1/2,
+	gutter-position: inside,
+	debug: (
+		image: show,
+		color: blue,
+		output: overlay,
+		toggle: top right,
+	),
+);

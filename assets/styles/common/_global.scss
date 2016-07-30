@@ -1,6 +1,17 @@
 body {
-	background-color: $grey;
-	color: #333;
-	font-family: Futura;
+	background-color: white;
+	color: $acac-black;
+	font-family: Helvetica, Arial;
 	font-size: 120%;
+}
+
+.container {
+	@include container($medium-screen);
+}
+
+.header,
+.section {
+	@include span(10);
+	@include pre(1);
+	@include post(1);
 }

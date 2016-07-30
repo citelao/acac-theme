@@ -1,0 +1,10 @@
+.button {
+	display: inline-block;
+	padding: 1rem;
+
+	background: $acac-blue;
+}
+
+.button--full {
+	@include span(12);
+}
