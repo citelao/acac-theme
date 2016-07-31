@@ -6,6 +6,8 @@
 	color: $acac-black;
 	text-align: center;
 
+	transition: background-color 0.1s ease-out;
+
 	&:hover {
 		border-bottom: 0;
 		background: darken($acac-blue, 10%);
@@ -14,6 +16,10 @@
 
 .button--full {
 	@include span(12);
+
+	@include breakpoint($medium-screen-break) {
+		@include span(6);
+	}
 }
 
 .button--emphasis {

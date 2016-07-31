@@ -20,13 +20,11 @@
 	padding: 2rem 0;
 	max-width: 100%;
 
-	.section__content {
+	.section__wrapper {
 		background: white;
 
-		width: auto;
+		padding: 2rem 0;
 		@include container($medium-screen);
-		float: none;
-		// padding-left: span(1);
 
 		@include breakpoint($medium-screen-break) {
 			@include container($large-screen);
