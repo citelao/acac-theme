@@ -4,14 +4,18 @@ $acac-blue: #78d0f0;
 $acac-dark-blue: #435eab;
 
 $medium-screen: 30rem;
+$medium-screen-break: 50rem;
+
+$large-screen: 45rem;
 
 $susy: (
 	columns: 12,
 	gutters: 1/2,
 	gutter-position: inside,
+	global-box-sizing: border-box,
 	debug: (
 		image: show,
-		color: blue,
+		color: rgba(0, 0, 244, 0.2),
 		output: overlay,
 		toggle: top right,
 	),

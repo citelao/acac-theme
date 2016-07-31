@@ -1,5 +1,9 @@
 .logo {
 	margin: 5rem auto;
+
+	@include breakpoint($medium-screen-break) {
+		margin: 7rem auto;
+	}
 }
 
 .logo__link {
@@ -15,6 +19,11 @@
 .logo__image {
 	height: 200px;
 	width: 200px;
+	
+	transition: transform 0.1s ease-in;
 
-	transition: transform 0.1s ease-in-out;
+	@include breakpoint($medium-screen-break) {
+		height: 250px;
+		width: 250px;
+	}
 }

@@ -1,0 +1,35 @@
+.section {
+	@include container($medium-screen);
+
+	padding-bottom: 2rem;
+
+	@include breakpoint($medium-screen-break) {
+		@include container($large-screen);
+	}
+}
+
+.section__content {
+	@include span(10);
+	@include pre(1);
+	@include post(1);
+}
+
+.section--dark {
+	background: $acac-black;
+
+	padding: 2rem 0;
+	max-width: 100%;
+
+	.section__content {
+		background: white;
+
+		width: auto;
+		@include container($medium-screen);
+		float: none;
+		// padding-left: span(1);
+
+		@include breakpoint($medium-screen-break) {
+			@include container($large-screen);
+		}
+	}
+}

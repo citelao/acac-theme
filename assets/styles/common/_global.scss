@@ -1,16 +1,16 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
 body {
 	background-color: white;
 	color: $acac-black;
 	font-family: Helvetica, Arial;
 	font-size: 120%;
+	line-height: 1.4;
 }
 
-.container {
-	@include container($medium-screen);
-}
-
-.header,
-.section {
+.header {
 	@include span(10);
 	@include pre(1);
 	@include post(1);

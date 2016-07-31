@@ -3,8 +3,24 @@
 	padding: 1rem;
 
 	background: $acac-blue;
+	color: $acac-black;
+	text-align: center;
+
+	&:hover {
+		border-bottom: 0;
+		background: darken($acac-blue, 10%);
+	}
 }
 
 .button--full {
 	@include span(12);
+}
+
+.button--emphasis {
+	background: $acac-red;
+	// color: white;
+
+	&:hover {
+		background: darken($acac-red, 10%);
+	}
 }

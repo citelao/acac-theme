@@ -1,5 +1,13 @@
 .tagline {
 	margin: 5rem auto;
+
+	@include breakpoint($medium-screen-break) {
+		margin: 7rem auto;
+	}
+}
+
+.tagline__intro {
+	font-weight: normal;
 }
 
 .tagline__emphasis {
