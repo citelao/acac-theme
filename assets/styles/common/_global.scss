@@ -9,9 +9,3 @@ body {
 	font-size: 120%;
 	line-height: 1.4;
 }
-
-.header {
-	@include span(10);
-	@include pre(1);
-	@include post(1);
-}

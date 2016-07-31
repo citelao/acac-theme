@@ -1,0 +1,16 @@
+.footer {
+	font-size: 0.8rem;
+	text-align: center;
+}
+
+.footer__link {
+	&:hover {
+		opacity: 0.3;
+		border-bottom: 0;
+	}
+}
+
+.footer__image {
+	height: 100px;
+	width: 100px;
+}
