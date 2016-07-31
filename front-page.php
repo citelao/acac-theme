@@ -16,7 +16,7 @@
 		<div class="section__content">
 			<h2>We run auditions.</h2>
 			<p>
-				ACAC makes sure that auditions are <strong>friendly, fair, and fun</strong>.
+				ACAC makes sure that auditions are <strong>friendly</strong>, <strong>fair</strong>, and <strong>fun</strong>.
 				We handle the logistics, you handle your solo.
 			</p>
 			<a href="" class="button button--full button--emphasis">audition procedures</a>
@@ -29,7 +29,7 @@
 <section class="section section--dark">
 	<div class="section__wrapper">
 		<div class="section__content">
-			<h2>What is ACAC?</h2>
+			<h2>What else is ACAC?</h2>
 			<p>Twelve a cappella groups at one school can be a lot. That’s why, in 2005, we founded ACAC to be the face for a cappella at WUSTL.</p>
 			<a href="">Learn more &rarr;</a>
 		</div>
@@ -45,11 +45,30 @@
 		</div>
 	</div>
 </section> -->
-
+<!-- 
+<section class="section section--dark">
+	<div class="section__wrapper">
+		<div class="section__content">
+			<h2>Latest News</h2>
+			<a href="">Older posts &rarr;</a>
+		</div>
+	</div>
+</section>
+ -->
 <section class="section">
-	<div class="section__content">
-		<h2>What is ACAC?</h2>
-		<p>Twelve a cappella groups at one school can be a lot. That’s why, in 2005, we founded ACAC to be the face for a cappella at WUSTL.</p>
-		<a href="">Learn more &rarr;</a>
+	<div class="section__wrapper">
+		<div class="section__content">
+			<h2>Contact us</h2>
+			<p>
+				ACAC is the easiest way to reach out to the entire a cappella
+				community at Washington University in St. Louis. 
+			</p>
+			<p>
+				<a href="">Send us a message &rarr;</a>
+			</p>
+			<p>
+				<a href="">Find a specific group &rarr;</a>
+			</p>
+		</div>
 	</div>
 </section>
