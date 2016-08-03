@@ -1,4 +1,8 @@
 <section class="section">
-	<?php the_content(); ?>
-	<?php wp_link_pages(['before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']); ?>	
+	<div class="section__wrapper">
+		<div class="section__content">
+			<?php the_content(); ?>
+			<?php wp_link_pages(['before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']); ?>	
+		</div>
+	</div>
 </section>
