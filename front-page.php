@@ -1,7 +1,7 @@
 <header class="section header">
 	<div class="section__wrapper">
 		<div class="section__content">
-			<h1 class="header__logo logo">
+			<h1 class="header__logo logo logo--hero">
 				<a href="/" class="logo__link" title="self-link to ACAC homepage">
 					<img class="logo__image" src="<?php bloginfo('template_directory'); ?>/assets/images/logo.svg" alt="the ACAC logo">
 				</a>

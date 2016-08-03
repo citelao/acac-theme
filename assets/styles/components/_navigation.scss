@@ -1,0 +1,21 @@
+.navigation__list {
+	@include span(8);
+
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu-item {
+	float: left;
+
+	a { 
+		padding: 0.5rem;
+
+		// color: $acac-black;
+	}
+}
+
+.current-menu-item {
+	font-weight: bold;
+}

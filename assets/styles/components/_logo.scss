@@ -1,8 +1,11 @@
-.logo {
-	margin: 5rem auto;
+.logo__image {
+	// height: 100px;
+	// width: 100px;
+
+	@include span(4);
 
 	@include breakpoint($medium-screen-break) {
-		margin: 7rem auto;
+		@include span(2);
 	}
 }
 
@@ -16,14 +19,25 @@
 	}
 }
 
-.logo__image {
-	height: 200px;
-	width: 200px;
-	
-	transition: transform 0.1s ease-in;
+.logo--hero {
+	margin: 5rem auto;
 
 	@include breakpoint($medium-screen-break) {
-		height: 250px;
-		width: 250px;
+		margin: 7rem auto;
+	}
+
+	.logo__image {
+		height: 200px;
+		width: 200px;
+		
+		padding: 0;
+		float: none;
+
+		transition: transform 0.1s ease-in;
+
+		@include breakpoint($medium-screen-break) {
+			height: 250px;
+			width: 250px;
+		}
 	}
 }
