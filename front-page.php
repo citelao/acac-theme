@@ -27,18 +27,3 @@
 	</section>
   <?php endforeach; ?>
 <?php endwhile; ?>
-
-<section class="section">
-	<div class="section__wrapper">
-		<div class="section__content">
-			<h2>We run auditions.</h2>
-			<p>
-				ACAC makes sure that auditions are <strong>friendly</strong>, <strong>fair</strong>, and <strong>fun</strong>.
-				We handle the logistics, you handle your solo.
-			</p>
-			<a href="" class="button button--full button--emphasis">audition procedures</a>
-			<a href="" class="button button--full">groups</a>
-			<!-- <a href="" class="button button--full">find us</a> -->
-		</div>
-	</div>
-</section>

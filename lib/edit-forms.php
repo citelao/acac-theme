@@ -3,6 +3,11 @@
 namespace ACAC\Forms;
 
 
+function homepage_callback() {
+	global $post;
+	return $post->ID == get_option('page_on_front');
+}
+
 function register_homepage_form() {
 	$prefix = '_acac_';
 
@@ -12,12 +17,12 @@ function register_homepage_form() {
 		'object_types'  => array( 'page', ),
 		'context'       => 'normal',
 		'priority'      => 'high',
-		// 'show_names'    => true,
+		'show_on_cb' => 'ACAC\Forms\homepage_callback'
 	) );
 
 	$section = $cmb->add_field( array(
-		'name'       => __( 'Homepage section', 'cmb2' ),
-		'desc'       => __( 'A content section on the homepage', 'cmb2' ),
+		'name'       => __( 'Homepage sections', 'cmb2' ),
+		'desc'       => __( 'The content sections on the homepage', 'cmb2' ),
 		'id'         => $prefix . 'section_group',
 		'type'       => 'group',
 		'options' => array(
@@ -36,7 +41,7 @@ function register_homepage_form() {
 
 	$cmb->add_group_field( $section, array(
 		'name' => 'Content',
-		'description' => 'The section content. Supports HTML.',
+		'description' => 'The section content. Supports HTML. Autowraps in paragraphs.',
 		'id'   => 'content',
 		'type' => 'textarea_small',
 	) );
@@ -47,7 +52,6 @@ function register_homepage_form() {
 		'id'   => 'dark',
 		'type' => 'checkbox',
 	) );
-
 }
 
 function register_forms() {
