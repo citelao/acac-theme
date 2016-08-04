@@ -12,14 +12,27 @@
 
 .menu-item {
 	display: block;
-	float: left;
-	margin: 0;
-	padding: 0;
+	@include span(7 of 7);
+
+	@include breakpoint($medium-screen-break) {
+		float: left;
+		margin: 0;
+		padding: 0;
+		width: auto;
+	}
 
 	a { 
+		display: block;
 		padding: 0.5rem;
 
 		// color: $acac-black;
+
+		&:hover, &:focus {
+			border-bottom: 0;
+
+			background-color: $acac-dark-blue;
+			color: #fff;
+		}
 	}
 }
 

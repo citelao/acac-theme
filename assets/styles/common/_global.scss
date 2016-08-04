@@ -9,3 +9,17 @@ body {
 	font-size: 120%;
 	line-height: 1.4;
 }
+
+/**
+ * Typography
+ **/
+
+a {
+	color: $acac-dark-blue;
+	text-decoration: none;
+
+	&:hover, &:focus {
+		color: lighten($acac-dark-blue, 20%);
+		border-bottom: 1px solid lighten($acac-dark-blue, 20%);
+	}
+}
