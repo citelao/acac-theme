@@ -8,7 +8,8 @@
 
 	transition: background-color 0.1s ease-out;
 
-	&:hover {
+	&:hover, &:focus {
+		color: $acac-black;
 		border-bottom: 0;
 		background: darken($acac-blue, 10%);
 	}
@@ -26,7 +27,7 @@
 	background: $acac-red;
 	// color: white;
 
-	&:hover {
+	&:hover, &:focus {
 		background: darken($acac-red, 10%);
 	}
 }

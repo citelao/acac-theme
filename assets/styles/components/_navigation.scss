@@ -36,6 +36,8 @@
 	}
 }
 
-.current-menu-item {
+.current-menu-item a {
+	color: #fff;
+	background-color: $acac-dark-blue;
 	font-weight: bold;
 }
