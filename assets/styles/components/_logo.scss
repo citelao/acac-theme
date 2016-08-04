@@ -8,7 +8,7 @@
 }
 
 .logo__link {
-	&:hover {
+	&:hover, &:focus {
 		border-bottom: none;
 
 		.logo__image {

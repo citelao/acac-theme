@@ -1,7 +1,13 @@
+<?php use Roots\Sage\Titles; ?>
 <?php get_template_part('templates/page', 'header'); ?>
 
-<div class="alert alert-warning">
-  <?php _e('Sorry, but the page you were trying to view does not exist.', 'sage'); ?>
-</div>
-
-<?php get_search_form(); ?>
+<section class="section">
+	<div class="section__wrapper">
+		<div class="section__content">
+			<h2><?= Titles\title(); ?></h2>
+			<p><?php _e('Sorry, the page you were looking for was not found.', 'sage'); ?></p>
+			<p><?php _e('Try searching?', 'sage'); ?></p>
+			<?php get_search_form(); ?>
+		</div>
+	</div>
+</section>
