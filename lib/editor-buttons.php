@@ -31,15 +31,15 @@ function tiny_mce_before_init($settings) {
             'items' => array(
                 array(
                     'title' => 'Heading',
-                    'format' => 'h2'
-                ),
-                array(
-                    'title' => 'Subheading',
                     'format' => 'h3'
                 ),
                 array(
-                    'title' => 'Subsubheading',
+                    'title' => 'Subheading',
                     'format' => 'h4'
+                ),
+                array(
+                    'title' => 'Subsubheading',
+                    'format' => 'h5'
                 )
             )
         ),

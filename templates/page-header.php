@@ -1,6 +1,6 @@
 <header class="section">
 	<h1 class="header__logo logo">
-		<a href="/" class="logo__link" title="self-link to ACAC homepage">
+		<a href="/" class="logo__link">
 			<img class="logo__image" src="<?php bloginfo('template_directory'); ?>/assets/images/logo.svg" alt="the ACAC logo">
 		</a>
 	</h1>
