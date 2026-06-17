@@ -1,6 +1,6 @@
 # ACAC Theme
 
-You might need to `npm install; bower install` to get everything working.
+You might need to `npm install; bower install` to get everything working. **Requires the ACAPLUGIN plugin** to be installed and active.
 
 Based off of Sage/Roots theme.
 
@@ -31,3 +31,7 @@ This theme finally **includes a sidebar**. This is shown at the bottom of every 
 5. Click **Save & Publish**.
 
 Create registration and callback pages yourself. See ACAPLUGIN for details.
+
+## Deploy
+
+Build the assets first (`npm run build`), then zip up the entire theme folder and upload it via **Appearance → Themes → Add New → Upload Theme**. WordPress requires `style.css` at the root of the zip — don't zip only `dist/`.

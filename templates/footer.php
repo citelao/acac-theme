@@ -5,7 +5,7 @@
     </div>
     <div class="section__content">
     	<p>
-    		Copyright <?php echo date("Y") ?> ACAC. Design copyright <?php echo date("Y") ?> <a href="http://ben.stolovitz.com">Ben Stolovitz</a>.
+    		Copyright 2016&ndash;<?php echo date("Y") ?> ACAC. Design copyright 2016&ndash;<?php echo date("Y") ?> <a href="http://ben.stolovitz.com">Ben Stolovitz</a>.
     		All rights reserved.
     	</p>
     	<a href="https://wustl.edu" class="footer__link">
